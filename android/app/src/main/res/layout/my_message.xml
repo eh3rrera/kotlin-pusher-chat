@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtMyMessage"
+        android:text="Hi, my message"
+        android:background="@drawable/my_message_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="240dp"
+        android:padding="15dp"
+        android:elevation="5dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMyMessageTime"
+        android:text="12:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMyMessage"
+        app:layout_constraintRight_toLeftOf="@+id/txtMyMessage" />
+
+</android.support.constraint.ConstraintLayout>
