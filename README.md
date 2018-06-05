@@ -1,5 +1,5 @@
 # kotlin-pusher-chat
-Chat app for Android made with Kotlin and Pusher. Follow the tutorial here (to be published).
+Chat app for Android made with Kotlin and Pusher. Follow the tutorial [here](https://pusher.com/tutorials/chat-kotlin-android).
 
 ## Getting Started
 
