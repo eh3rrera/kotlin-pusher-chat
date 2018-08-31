@@ -36,7 +36,7 @@ class MessageAdapter (val context: Context) : RecyclerView.Adapter<MessageViewHo
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): MessageViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessageViewHolder {
         return if(viewType == VIEW_TYPE_MY_MESSAGE) {
             MyMessageViewHolder(LayoutInflater.from(context).inflate(R.layout.my_message, parent, false))
         } else {
@@ -44,7 +44,7 @@ class MessageAdapter (val context: Context) : RecyclerView.Adapter<MessageViewHo
         }
     }
 
-    override fun onBindViewHolder(holder: MessageViewHolder?, position: Int) {
+    override fun onBindViewHolder(holder: MessageViewHolder, position: Int) {
         val message = messages.get(position)
 
         holder?.bind(message)
