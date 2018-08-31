@@ -15,8 +15,8 @@ Chat app for Android made with Kotlin and Pusher. Follow the tutorial [here](htt
 
 - [Android Studio 3.1.2](https://developer.android.com/studio/index.html)
   - MinSdkVersion: 15
-  - TargetSdkVersion: 26
-  - buildToolsVersion: 26.1.0
+  - TargetSdkVersion: 27
+  - buildToolsVersion: 27.1.1
 - [Pusher account](https://pusher.com/signup)
 
 ## Built With
